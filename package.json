@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ShilpiMaurya.github.io/git-action-playground",
+  "homepage": "https://rancesking.github.io/reactbuild/",
   "name": "git-action-playground",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -35,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^4.0.0"
   }
 }
